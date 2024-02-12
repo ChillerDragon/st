@@ -697,6 +697,8 @@ execsh(char *cmd, char **args)
 	setenv("SHELL", sh, 1);
 	setenv("HOME", pw->pw_dir, 1);
 	setenv("TERM", termname, 1);
+	// https://github.com/ChillerDragon/dotfiles/commit/5fead00b13aedc7b18b3111e6df0d7fe9d6f65c2
+	setenv("VIM_BACKGROUND", "light", 1);
 
 	signal(SIGCHLD, SIG_DFL);
 	signal(SIGHUP, SIG_DFL);
