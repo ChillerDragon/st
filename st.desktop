@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=suckless terminal
+GenericName=st suckless terminal emulator
+Exec=st %u
+Terminal=false
+Keywords=game;multiplayer;
+Categories=Game;ArcadeGame;
+MimeType=x-scheme-handler/st;
+Comment=Launch suckless terminal
