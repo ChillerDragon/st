@@ -5,6 +5,15 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+
+// would be nice but would require this ligatures patch
+// https://st.suckless.org/patches/ligatures/
+// also installing nerd fonts should be part of the makefile then
+//
+//  git clone git@github.com:ryanoasis/nerd-fonts.git --depth 1
+//  cd nerd-fonts && ./install.sh
+//
+// static char *font = "CaskaydiaCoveNerdFontMono-Bold:pixelsize=20:antialias=true:autohint=true";
 static char *font = "Liberation Mono:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 2;
 
